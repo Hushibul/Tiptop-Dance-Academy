@@ -1,0 +1,52 @@
+extends base.pug 
+
+block scripts 
+    script(src='static/index.js')
+
+block style
+     style   
+            include ../static/style.css
+
+block content 
+    
+
+    section#introSection    
+         div Welcome to Tiptop Dance Academy 
+         div.small Eat Sleep Dance and Repeat
+
+    section#missionSection 
+         h1 Our mission    
+         div.card 
+            h3 Dance Perfection
+            div.card-box 
+                div.card-img
+                    img(src="/static/image/4.png")
+                div.contentCard 
+                    p Dance for perfection 
+           
+         div.card 
+            h3 Dance the way you like 
+            div.card-box 
+                div.card-img
+                    img(src="/static/image/5.jpg")
+                div.contentCard 
+                    p Dance for perfection 
+           
+         div.card 
+            h3 Expert Teacher
+            div.card-box 
+                div.card-img
+                    img(src="/static/image/6.jpg")
+                div.contentCard 
+                    p Dance for perfection 
+
+    section#sponserSection 
+        h1 Our Sponsers 
+        div#sponser 
+            img(src="/static/image/fb.jpg")
+            img(src="/static/image/apple.png")
+            img(src="/static/image/HP.png")
+            img(src="/static/image/gog.webp")
+
+
+    
